@@ -1,1 +1,337 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>আল-ইতমিনান | Herbal Products</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial,"Noto Sans Bengali",sans-serif;
+    background:#f5f7f2;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(135deg,#14532d,#166534);
+    color:white;
+    text-align:center;
+    padding:28px 15px;
+}
+
+header h1{
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+header p{
+    font-size:17px;
+}
+
+.hero{
+    text-align:center;
+    padding:35px 15px;
+    background:white;
+}
+
+.hero h2{
+    color:#14532d;
+    font-size:28px;
+    margin-bottom:12px;
+}
+
+.hero p{
+    font-size:17px;
+    line-height:1.8;
+    max-width:700px;
+    margin:auto;
+}
+
+.products{
+    max-width:1100px;
+    margin:auto;
+    padding:30px 15px;
+}
+
+.products h2{
+    text-align:center;
+    color:#14532d;
+    margin-bottom:25px;
+    font-size:28px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:22px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 18px rgba(0,0,0,.12);
+    text-align:center;
+    padding-bottom:22px;
+}
+
+.card img{
+    width:100%;
+    height:280px;
+    object-fit:contain;
+    background:#f8f8f8;
+    padding:10px;
+}
+
+.card h3{
+    color:#14532d;
+    font-size:21px;
+    margin:15px 10px 8px;
+}
+
+.card p{
+    line-height:1.7;
+    padding:0 15px;
+}
+
+.price{
+    font-size:24px;
+    font-weight:bold;
+    color:#b45309;
+    margin:15px 0;
+}
+
+.old{
+    color:#777;
+    text-decoration:line-through;
+    font-size:16px;
+    margin-right:8px;
+}
+
+.order{
+    display:inline-block;
+    background:#16a34a;
+    color:white;
+    text-decoration:none;
+    padding:13px 25px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.free{
+    background:#ecfdf5;
+    color:#166534;
+    text-align:center;
+    padding:20px;
+    margin:10px 15px 30px;
+    border-radius:12px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.info{
+    background:white;
+    padding:35px 20px;
+    text-align:center;
+}
+
+.info h2{
+    color:#14532d;
+    margin-bottom:15px;
+}
+
+.info p{
+    line-height:2;
+    font-size:17px;
+}
+
+footer{
+    background:#123524;
+    color:white;
+    text-align:center;
+    padding:25px 15px;
+    line-height:1.9;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+@media(max-width:500px){
+    header h1{
+        font-size:28px;
+    }
+
+    .hero h2,
+    .products h2{
+        font-size:24px;
+    }
+
+    .card img{
+        height:240px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌿 আল-ইতমিনান</h1>
+    <p>বিশ্বস্ত হারবাল পণ্যের ঠিকানা</p>
+</header>
+
+<section class="hero">
+    <h2>কোরিয়ান রেড জিংসেন</h2>
+    <p>
+        মানসম্মত কোরিয়ান রেড জিংসেনের বিভিন্ন পণ্য।
+        আপনার প্রয়োজন অনুযায়ী পণ্য বেছে নিন এবং সরাসরি WhatsApp-এর মাধ্যমে অর্ডার করুন।
+    </p>
+</section>
+
+<div class="free">
+    🚚 সকল পণ্যে ডেলিভারি চার্জ ফ্রি
+</div>
+
+<section class="products">
+
+<h2>আমাদের পণ্যসমূহ</h2>
+
+<div class="grid">
+
+<!-- পণ্য ১ -->
+<div class="card">
+
+    <img src="product1.jpg" alt="কোরিয়ান রেড জিংসেন শিকড়">
+
+    <h3>কোরিয়ান রেড জিংসেন শিকড়</h3>
+
+    <p>
+        ৬ বছর বয়সী কোরিয়ান রেড জিংসেন শিকড়।
+        <br>
+        ১ বক্স: ৩০০ গ্রাম
+        <br>
+        ৭৫ গ্রাম প্যাকও পাওয়া যায়।
+    </p>
+
+    <div class="price">
+        ৳৯,৫০০
+    </div>
+
+    <p>৭৫ গ্রাম: ৳২,৫০০</p>
+
+    <br>
+
+    <a class="order"
+       href="https://wa.me/8801969495115?text=আমি%20কোরিয়ান%20রেড%20জিংসেন%20শিকড়%20অর্ডার%20করতে%20চাই">
+       WhatsApp অর্ডার
+    </a>
+
+</div>
+
+
+<!-- পণ্য ২ -->
+<div class="card">
+
+    <img src="product2.jpg" alt="কোরিয়ান রেড জিংসেন গোল্ড ক্যাপসুল">
+
+    <h3>কোরিয়ান রেড জিংসেন গোল্ড ক্যাপসুল</h3>
+
+    <p>
+        গোল্ড ক্যাপসুল
+        <br>
+        ১ বক্স: ১২০ পিস
+        <br>
+        ৩০ পিস প্যাকও পাওয়া যায়।
+    </p>
+
+    <div class="price">
+        ৳৪,৫০০
+    </div>
+
+    <p>৩০ পিস: ৳১,৪০০</p>
+
+    <br>
+
+    <a class="order"
+       href="https://wa.me/8801969495115?text=আমি%20কোরিয়ান%20রেড%20জিংসেন%20গোল্ড%20ক্যাপসুল%20অর্ডার%20করতে%20চাই">
+       WhatsApp অর্ডার
+    </a>
+
+</div>
+
+
+<!-- পণ্য ৩ -->
+<div class="card">
+
+    <img src="product3.jpg" alt="কোরিয়ান রেড জিংসেন লিকুইড">
+
+    <h3>কোরিয়ান রেড জিংসেন লিকুইড</h3>
+
+    <p>
+        ১ বক্সে ৪ কৌটা
+        <br>
+        প্রতি কৌটা ২৪০ গ্রাম
+        <br>
+        মোট ৯৬০ গ্রাম
+    </p>
+
+    <div class="price">
+        ৳১১,৫০০
+    </div>
+
+    <p>১ কৌটা ২৪০ গ্রাম: ৳২,৭০০</p>
+
+    <br>
+
+    <a class="order"
+       href="https://wa.me/8801969495115?text=আমি%20কোরিয়ান%20রেড%20জিংসেন%20লিকুইড%20অর্ডার%20করতে%20চাই">
+       WhatsApp অর্ডার
+    </a>
+
+</div>
+
+</div>
+</section>
+
+
+<section class="info">
+
+<h2>📞 যোগাযোগ</h2>
+
+<p>
+📱 01969495115
+<br>
+📱 01893836906
+<br><br>
+
+🚚 সকল পণ্যে ডেলিভারি চার্জ ফ্রি
+<br>
+📦 সারা বাংলাদেশে ডেলিভারি
+</p>
+
+</section>
+
+
+<footer>
+
+<strong>আল-ইতমিনান</strong>
+<br>
+হারবাল পণ্য ও স্বাস্থ্যসামগ্রী
+
+<br><br>
+
+© 2026 Al-Etminan. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
